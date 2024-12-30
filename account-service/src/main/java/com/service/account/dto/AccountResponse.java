@@ -12,4 +12,5 @@ public class AccountResponse {
     private Long accountNumber;
     private String accountType;
     private long balance;
+    private long customerId;
 }

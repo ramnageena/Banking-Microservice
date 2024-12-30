@@ -10,6 +10,10 @@ public class TransactionConstant {
     public static final String WITHDRAW_SUCCESSFUL = "Withdrawal successful";
     public static final String INSUFFICIENT_BALANCE = "Insufficient balance";
     public static final String TRANSFER_SUCCESSFUL = "Transfer successful";
+    public static final String ACCOUNT_DETAILS = "/accountDetails/";
+    public static final String UPDATE_BALANCE = "/update-balance";
+    public static final String CUSTOMER_DETAILS = "/getCustomerById/";
+
 
     private TransactionConstant() {
 

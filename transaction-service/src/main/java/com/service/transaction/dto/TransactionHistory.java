@@ -3,7 +3,7 @@ package com.service.transaction.dto;
 import lombok.Data;
 
 @Data
-public class TransactionResponse {
+public class TransactionHistory {
     private Long transactionId;
     private Long accountNumber;
     private long amount;
@@ -11,5 +11,4 @@ public class TransactionResponse {
     private String status;          // SUCCESS or FAILURE
     private String message;
     private long totalBalance;
-    private CustomerResponse customerResponse;
 }
